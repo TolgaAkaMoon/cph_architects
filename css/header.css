@@ -1,3 +1,4 @@
+/* Header */
 nav {
     display: grid;
     background-color: #92B8B7;
@@ -62,7 +63,7 @@ nav h1 {
 }
 
 /* Desktop Version */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 620px) {
     #checkboxLabel {
         display: none;
         content: none;
@@ -74,28 +75,37 @@ nav h1 {
     }
 
     #uList {
-    display: block;
-    height: 50px;
-    width: 100%;
-    grid-template-rows: 0;
-    background-color: transparent;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+        display: block;
+        height: 50px;
+        width: 100%;
+        grid-template-rows: 0;
+        background-color: transparent;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
 
     nav {
-    display: grid;
-    background-color: #92B8B7;
-    color: white;
-    width: 100%;
-    grid-template-columns: 60% 40%;
-    grid-auto-rows: auto;
-    align-items: center;
-    height: 56px;
-    margin: 0;
+        display: grid;
+        background-color: #92B8B7;
+        color: white;
+        width: 100%;
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: auto;
+        align-items: center;
+        height: 56px;
+        margin: 0;
+    }
+
+    nav ul li{
+        margin-right: 20px;
+        margin-top: 15px;
+        padding: 0;
+        float: right;
+        font-size: 20px;
+        text-decoration: underline;
     }
 
     main {
