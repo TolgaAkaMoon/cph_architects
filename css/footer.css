@@ -49,17 +49,22 @@ footer .copyright {
 }
 
 /* Desktop Version */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 768px) {
    
     #social1{
-        margin-left: 200px;
+        margin-left: 300px;
     }
 
     #social2{
-        margin-left: 250px;
+        margin-left: 350px;
     }
 
     #social3{
-        margin-left: 300px;
+        margin-left: 400px;
     }
+
+    footer address {
+        margin-left: 20%;
+    }
+
   }

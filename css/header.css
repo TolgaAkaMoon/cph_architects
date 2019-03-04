@@ -7,7 +7,7 @@ nav {
     grid-template-columns: 1fr 0.2fr;
     grid-auto-rows: auto;
     align-items: center;
-    height: 56px;
+    height: 20%;
     margin: 0;
 }
 
@@ -63,7 +63,7 @@ nav h1 {
 }
 
 /* Desktop Version */
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 768px) {
     #checkboxLabel {
         display: none;
         content: none;
@@ -92,8 +92,7 @@ nav h1 {
         background-color: #92B8B7;
         color: white;
         width: 100%;
-        grid-template-columns: 50% 50%;
-        grid-auto-rows: auto;
+        grid-template-columns: 44% 56%;
         align-items: center;
         height: 56px;
         margin: 0;
@@ -118,4 +117,18 @@ nav h1 {
         padding: 0;
     }
 
+    nav h1 {
+    }
+
   }
+
+@media only screen and (min-width: 768px) {
+
+    nav h1 {
+        margin-left: 22%;
+    }
+
+    #uList {
+        width: 83%;
+    }
+}
