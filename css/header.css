@@ -64,6 +64,7 @@ nav h1 {
 
 /* Desktop Version */
 @media only screen and (min-width: 768px) {
+    
     #checkboxLabel {
         display: none;
         content: none;
@@ -98,7 +99,7 @@ nav h1 {
         margin: 0;
     }
 
-    nav ul li{
+    nav ul li {
         margin-right: 20px;
         margin-top: 15px;
         padding: 0;
@@ -117,9 +118,6 @@ nav h1 {
         padding: 0;
     }
 
-    nav h1 {
-    }
-
   }
 
 @media only screen and (min-width: 768px) {
@@ -131,4 +129,5 @@ nav h1 {
     #uList {
         width: 83%;
     }
+
 }
